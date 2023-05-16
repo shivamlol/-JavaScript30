@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+:root{
+    --base: #F7EC7D;
+    --spacing: 1px;
+    --blur: 10px;
+}
+.zero{
+    background:#62306D;
+    height: 317px;
+}
+.one {
+    background:#AA445F;
+    height:250px;
+}
+.two{
+    background: #E38F66;
+    height:100px;
+}
+.three{
+    background:#F7EC7D;
+    height:50px;
+}
+
+.intro{
+    position: relative;
+    bottom: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    color: white;
+}
+
+.explain{
+    position: relative;
+    bottom: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+
+.controls{
+    position: relative;
+    bottom: 700px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+    padding-top: 30px;
+}
+
+.imag{
+    padding-top: var(--spacing);
+    padding-left: var(--spacing);
+    padding-right: var(--spacing);
+    padding-bottom: var(--spacing);
+    border: 10px solid var(--base);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 500px;
+    height: 300px;
+    position: relative;
+    bottom: 700px;
+    left: 500px;
+}
